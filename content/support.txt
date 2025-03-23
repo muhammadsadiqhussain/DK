@@ -1,0 +1,23 @@
+Agar tum Luxury & Premium Look wali color palette use kar rahe ho, toh is tarah apply karo:
+
+🎨 Luxury Color Palette
+Dark Blue (#1E3A5F) → Header, Footer, Buttons
+
+Gold (#D4AF37) → Accents (Icons, Borders, Call-to-Action Buttons, Headings Highlights)
+
+Cream (#F5F5DC) → Background (Main Content Area)
+
+White (#FFFFFF) → Text Backgrounds, Cards, and Sections for Readability
+
+🛠 Implementation Tips:
+Header & Footer → Dark Blue background with Gold text/logo.
+
+Buttons → Dark Blue with Gold text OR Gold with Dark Blue text for contrast.
+
+Text → Mostly Dark Blue or Black on Cream background for readability.
+
+Hover Effects → When hovering on buttons, background can turn Gold with Dark Blue text.
+
+Sections (About Us, Products, Contact) → Use a mix of Cream and White backgrounds to break the layout.
+
+Cards/Product Showcases → White or Cream background with Gold borders to give a premium feel.
