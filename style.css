@@ -85,7 +85,9 @@ p {
   }
 
   .right img {
-    max-width: 90%;
+    /* max-width: 90%; */
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -185,7 +187,7 @@ footer {
   color: #d4af37;
 }
 
-/* Footer Bottom */
+
 .footer-bottom {
   margin-top: 20px;
   border-top: 1px solid #444;
@@ -194,7 +196,7 @@ footer {
   color: #ccc;
 }
 
-/* ✅ Responsive Footer */
+
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
