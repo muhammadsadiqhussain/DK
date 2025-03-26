@@ -187,7 +187,6 @@ footer {
   color: #d4af37;
 }
 
-
 .footer-bottom {
   margin-top: 20px;
   border-top: 1px solid #444;
@@ -195,7 +194,6 @@ footer {
   font-size: 14px;
   color: #ccc;
 }
-
 
 @media (max-width: 768px) {
   .footer-container {

@@ -7,18 +7,71 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-      body{
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
         font-family: "Roboto", sans-serif;
         background-color: #f5f5dc;
       }
-      .border{
-        display: flex;
-        border: 2px solid green;
-        padding: 5px;
+
+      .heading {
+        background-color: #1e3a5f;
+        color: #d4af37;
+        padding: 30px;
       }
-      .machine1{
-        border: 2px solid Red;
-        padding: 5px;
+
+      .container {
+        background-color: #1e3a5f;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        border: 3px solid #d4af37;
+        border-radius: 14px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 80px;
+      }
+      /* responsive */
+
+      @media (max-width: 1024px) {
+        .container {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        .container {
+          height: 400px;
+          width: 530px;
+          font-size: 16px;
+        }
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          height: 200px;
+          width: 300px;
+          font-size: 14px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
       }
     </style>
   </head>
@@ -27,14 +80,65 @@
       <h1>Profile</h1>
     </div>
 
-    <div class="border">
-      <div class="machine1">
-        <img src="./content/main logo-Photoroom.png" alt="" width="80px" height="80px">
-      </div>
-      <div class="machine2">
-        <p>Hello</p>
-        <p>world</p>
-      </div>
-    </div>
+    <table class="container" border="2px" width="90%" height="60px">
+      <tr>
+        <th></th>
+        <th>DIA</th>
+        <th>GAUGE</th>
+        <th>ITEM</th>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="./content/needles_4126713.png"
+            alt=""
+            width="80px"
+            height="80px"
+          />
+        </td>
+        <td>30</td>
+        <td>24, 28</td>
+        <td>S/Jersey</td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="./content/needles_4126713.png"
+            alt=""
+            width="80px"
+            height="80px"
+          />
+        </td>
+        <td>30</td>
+        <td>20, 24</td>
+        <td>S/Jersey</td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="./content/needles_4126713.png"
+            alt=""
+            width="80px"
+            height="80px"
+          />
+        </td>
+        <td>30</td>
+        <td>18, 28, 32</td>
+        <td>S/Jersey</td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="./content/needles_4126713.png"
+            alt=""
+            width="80px"
+            height="80px"
+          />
+        </td>
+        <td>30</td>
+        <td>16, 18, 20, 28, 32</td>
+        <td>S/Jersey</td>
+      </tr>
+    </table>
   </body>
 </html>

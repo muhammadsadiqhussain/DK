@@ -40,10 +40,26 @@
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
       }
 
+      /* responsive */
+
+      @media (max-width: 1024px) {
+        .container {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .paragraph {
+          overflow-y: scroll;
+          font-size: 16px;
+          height: 300px;
+        }
+      }
+
       @media (max-width: 480px) {
         .paragraph {
           flex-direction: column;
-          /* text-align: center; */
           overflow-y: scroll;
         }
       }
